@@ -1,0 +1,142 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background: black;
+}
+
+.menu {
+  width: 36px;
+  height: 36px;
+  cursor:pointer;
+}
+
+.links {
+  position: fixed;
+  top: 20;
+  left:0;
+  background: white;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 555px;
+}
+
+.links li {
+  background: black;
+  color: white;
+  padding: 36px;
+  width: 186px;
+}
+
+.links li a {
+  text-decoration: none;
+}
+
+.cart {
+   width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+ 
+body {
+  background-image: url("./Dg.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-blend-mode: darken;
+}
+
+button {
+  border: 3px solid white;
+  color: white;
+  background: #000000a3;
+  border-radius: 24px;
+  padding: 8px;
+  width: 144px;
+  cursor:pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  margin: 0 auto 0 auto;
+  width: 72px;
+}
+
+.actions {
+  margin-top:300px;
+  display: flex;
+  margin: 300px auto 0;
+  justify-content:center;
+}
+
+.actions button {
+  margin: 10px;
+}
+
+.social-media  {
+  display: flex;
+  width: 240px;
+  margin: 30px auto;
+  justify-content: space-between;
+}
+
+.social-media img {
+  width: 24px;
+}
+
+.clothing, .decor {
+  padding-left: 132px;
+  width: 1200px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-rows: 360px 360px;
+  grid-template-columns: 300px 300px 300px;
+  grid-gap: 30px;
+}
+
+
+.clothing-item img, .decor-item img {
+  width: 200px;
+}
+
+.clothing-item button, .decor-item button {
+  color: black;
+  background: #fff;
+}
+
+.clothing-item .details, .decor-item .details {
+  color: white;
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.categories h2 {
+  color: white;
+}
+
+.categories .options {
+  display: flex;
+}
+
+.categories img {
+  margin-right: 12px;
+}
+
+.categories, .decor, .clothing {
+  padding-left: 300px;
+}
